@@ -8,7 +8,7 @@ const Nindi = () => {
         {/* KOLOM KIRI: FOTO & KONTAK */}
         <div className="md:w-1/3 flex flex-col items-center border-b md:border-b-0 md:border-r border-white/10 pb-6 md:pb-0 md:pr-8">
           <div className="relative inline-block mb-4 group">
-            {/* Memanggil foto langsung dari folder public */}
+            {/* Foto mengambil dari folder public sesuai strukturmu */}
             <img 
               src="/nindi.jpg" 
               alt="Nindi" 
@@ -20,6 +20,7 @@ const Nindi = () => {
           <h2 className="text-2xl font-bold italic">Nindi</h2>
           <p className="text-pink-400 font-medium mb-6">UI/UX Designer</p>
 
+          {/* SOSIAL MEDIA */}
           <div className="w-full space-y-3 text-left">
             <h3 className="text-xs font-bold uppercase tracking-widest text-slate-400 px-2">Hubungi Saya</h3>
             <div className="flex items-center gap-3 bg-white/5 p-3 rounded-xl hover:bg-pink-400/20 transition cursor-pointer border border-white/5">
@@ -28,60 +29,68 @@ const Nindi = () => {
             </div>
             <div className="flex items-center gap-3 bg-white/5 p-3 rounded-xl hover:bg-pink-400/20 transition cursor-pointer border border-white/5">
               <span className="text-xl">📧</span>
-              <p className="text-xs font-medium truncate">nindi@gmail.com</p>
+              <p className="text-xs font-medium truncate">nindrdn._@gmail.com</p>
             </div>
           </div>
 
+          {/* SOFTWARE & TOOLS */}
           <div className="w-full mt-8 space-y-3 text-left">
             <h3 className="text-xs font-bold uppercase tracking-widest text-slate-400 px-2">Software</h3>
             <div className="flex gap-4 p-2 bg-white/5 rounded-xl border border-white/5 justify-center">
-                <img src="https://cdn.worldvectorlogo.com/logos/figma-1.svg" className="h-6 hover:scale-110 transition" alt="Figma" />
-                <img src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" className="h-6 hover:scale-110 transition" alt="VSCode" />
-                <img src="https://cdn.worldvectorlogo.com/logos/canva-1.svg" className="h-6 hover:scale-110 transition" alt="Canva" />
+                <img src="https://cdn.worldvectorlogo.com/logos/figma-1.svg" className="h-6 hover:scale-110 transition" alt="Figma" title="Figma" />
+                <img src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" className="h-6 hover:scale-110 transition" alt="VSCode" title="VS Code" />
+                <img src="https://cdn.worldvectorlogo.com/logos/canva-1.svg" className="h-6 hover:scale-110 transition" alt="Canva" title="Canva" />
             </div>
           </div>
         </div>
 
         {/* KOLOM KANAN: DETAIL INFO */}
         <div className="md:w-2/3 space-y-8 text-left">
+          
+          {/* TENTANG DIRI */}
           <section>
             <h3 className="text-xl font-bold border-b-2 border-pink-400 inline-block mb-4">Tentang Diri</h3>
-            <p className="text-slate-200 leading-relaxed text-sm italic bg-white/5 p-4 rounded-2xl border-l-4 border-pink-400">
-              "Mahasiswa Teknologi Informasi yang antusias dalam bidang UI/UX Design. Gemar mengeksplorasi tren desain terbaru, melakukan riset pengguna, dan menuangkan ide kreatif ke dalam wireframe serta high-fidelity prototype. Sukses kerja di Freeport!"
+            <p className="text-slate-200 leading-relaxed text-sm italic bg-white/5 p-5 rounded-2xl border-l-4 border-pink-400">
+              "Halo! Saya Nindi, mahasiswi Teknologi Informasi yang memiliki ketertarikan mendalam di dunia UI/UX Design. Bagi saya, desain bukan sekadar tentang estetika visual, melainkan bagaimana menciptakan solusi digital yang intuitif dan memudahkan pengguna dalam berinteraksi. Saya sangat gemar mengeksplorasi tren desain terbaru, melakukan riset pengguna untuk memahami kebutuhan mereka, hingga menuangkan ide-ide kreatif ke dalam bentuk wireframe dan prototype high-fidelity yang interaktif menggunakan Figma. 
+            
+              Selama masa perkuliahan, saya aktif mengasah kemampuan teknis saya dalam menyusun Design Systems yang konsisten dan memperhatikan aspek aksesibilitas. Saya adalah pribadi yang sangat memperhatikan detail, senang berkolaborasi dalam tim untuk memecahkan masalah kompleks, serta memiliki komitmen tinggi untuk terus belajar mengikuti perkembangan teknologi industri kreatif. Fokus utama saya adalah memberikan pengalaman pengguna yang berkesan dan bermakna melalui produk digital yang user-friendly dan fungsional."
             </p>
           </section>
 
+          {/* SKILLS */}
           <section>
-            <h3 className="text-xl font-bold border-b-2 border-pink-400 inline-block mb-4">Skills</h3>
+            <h3 className="text-xl font-bold border-b-2 border-pink-400 inline-block mb-4">Design Skills</h3>
             <div className="flex flex-wrap gap-2">
               <span className="bg-pink-400/20 text-pink-300 px-4 py-1.5 rounded-full text-xs font-semibold border border-pink-400/30">User Research</span>
               <span className="bg-pink-400/20 text-pink-300 px-4 py-1.5 rounded-full text-xs font-semibold border border-pink-400/30">Wireframing</span>
+              <span className="bg-pink-400/20 text-pink-300 px-4 py-1.5 rounded-full text-xs font-semibold border border-pink-400/30">Visual Prototyping</span>
               <span className="bg-blue-400/20 text-blue-300 px-4 py-1.5 rounded-full text-xs font-semibold border border-blue-400/30">Tailwind CSS</span>
               <span className="bg-yellow-400/20 text-yellow-300 px-4 py-1.5 rounded-full text-xs font-semibold border border-yellow-400/30">React.js</span>
             </div>
           </section>
 
+          {/* SOFT SKILLS & FOKUS */}
           <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
              <div className="bg-white/5 p-5 rounded-2xl border border-white/10">
                 <h4 className="text-xs font-bold text-pink-300 uppercase mb-3 tracking-widest">Soft Skills</h4>
                 <ul className="text-sm space-y-2 text-slate-300">
-                  <li>✨ Team Collaboration</li>
-                  <li>🎨 Creative Problem Solving</li>
-                  <li>📈 Fast Learner</li>
+                  <li className="flex items-center gap-2">✨ <span>Empathy & User-Centric</span></li>
+                  <li className="flex items-center gap-2">🎨 <span>Creative Problem Solving</span></li>
+                  <li className="flex items-center gap-2">🤝 <span>Team Collaboration</span></li>
                 </ul>
              </div>
              <div className="bg-pink-400/10 p-5 rounded-2xl border border-pink-400/20">
                 <h4 className="text-xs font-bold text-pink-300 uppercase mb-3 tracking-widest">Fokus Belajar</h4>
                 <p className="text-sm text-slate-200 leading-relaxed">
-                  Mendalami <strong>Micro-interactions</strong> dan <strong>Design Systems</strong>.
+                  Saat ini sedang mendalami <strong>Human-Computer Interaction (HCI)</strong> untuk memperkuat dasar riset dalam pembuatan aplikasi yang inklusif.
                 </p>
              </div>
           </section>
+
         </div>
       </div>
     </div>
   );
 };
 
-// WAJIB ADA INI: Agar App.jsx bisa mengenali komponen Nindi
 export default Nindi;
