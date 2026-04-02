@@ -36,10 +36,10 @@ const Nindi = () => {
           {/* SOFTWARE & TOOLS */}
           <div className="w-full mt-8 space-y-3 text-left">
             <h3 className="text-xs font-bold uppercase tracking-widest text-slate-400 px-2">Software</h3>
-            <div className="flex gap-4 p-2 bg-white/5 rounded-xl border border-white/5 justify-center">
-                <img src="https://cdn.worldvectorlogo.com/logos/figma-1.svg" className="h-6 hover:scale-110 transition" alt="Figma" title="Figma" />
-                <img src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" className="h-6 hover:scale-110 transition" alt="VSCode" title="VS Code" />
-                <img src="https://cdn.worldvectorlogo.com/logos/canva-1.svg" className="h-6 hover:scale-110 transition" alt="Canva" title="Canva" />
+            <div className="flex gap-5 p-4 bg-white/5 rounded-xl border border-white/5 justify-center items-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" className="h-6 hover:scale-125 transition duration-300" alt="Figma" title="Figma" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" className="h-6 hover:scale-125 transition duration-300" alt="VSCode" title="VS Code" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" className="h-6 hover:scale-110 transition invert" alt="GitHub" />
             </div>
           </div>
         </div>
