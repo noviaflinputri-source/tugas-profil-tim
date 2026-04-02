@@ -1,5 +1,4 @@
-import React from 'yohana';
-
+import React from 'react';
 const Yohana = () => {
   return (
     <div className="max-w-md w-full bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20 shadow-xl text-center transform hover:scale-105 transition-all duration-300">
