@@ -1,4 +1,5 @@
 import React from 'react';
+import Yohana from './Yohana'; 
 
 function App() {
   return (
@@ -43,9 +44,13 @@ function App() {
             Scroll ke bawah untuk melihat profil anggota
           </p>
         </div>
+        <div className="mt-10 flex justify-center pb-20">
+          <Yohana />
+        </div>
+        {/* ------------------------- */}
+
       </div>
     </div>
   );
 }
-
 export default App;
