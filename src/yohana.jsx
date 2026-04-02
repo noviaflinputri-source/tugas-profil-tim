@@ -16,7 +16,7 @@ const Yohana = () => {
             <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-green-500 border-4 border-slate-900 rounded-full shadow-md animate-pulse"></div>
           </div>
           
-          <h2 className="text-2xl font-bold italic">Yohana</h2>
+          <h2 className="text-2xl font-bold italic">Yohana July Serafim Sitorus</h2>
           <p className="text-blue-400 font-medium mb-4">Teknologi Informasi</p>
 
           {/* BAGIAN BARU: DOMISILI & KELAS */}
