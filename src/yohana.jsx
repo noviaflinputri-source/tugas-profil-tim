@@ -18,7 +18,7 @@ const Yohana = () => {
           </div>
           
           <h2 className="text-2xl font-bold italic">Yohana</h2>
-          <p className="text-blue-400 font-medium mb-6">Frontend Developer</p>
+          <p className="text-blue-400 font-medium mb-6">Mahasiswa Teknologi Informasi</p>
 
           <div className="w-full space-y-3 text-left">
             <h3 className="text-xs font-bold uppercase tracking-widest text-slate-400 px-2">Hubungi Saya</h3>
