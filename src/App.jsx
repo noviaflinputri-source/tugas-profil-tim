@@ -20,7 +20,7 @@ function App() {
       <div className="relative z-10 flex flex-col items-center py-20 px-6 text-center">
         
         <div className="max-w-4xl w-full bg-white/10 backdrop-blur-md rounded-3xl p-10 border border-white/20 shadow-2xl">
-          <span className="bg-indigo-500 text-white px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest">
+          <span className="bg-pink-300 text-white px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest">
             Project Kelompok TERSERAH
           </span>
 
@@ -35,7 +35,7 @@ function App() {
           </div>
 
           <div className="mt-10 mb-6 flex justify-center gap-2">
-            <div className="h-1.5 w-16 bg-indigo-500 rounded-full"></div>
+            <div className="h-1.5 w-16 bg-pink-300 rounded-full"></div>
             <div className="h-1.5 w-4 bg-indigo-300 rounded-full"></div>
           </div>
 
