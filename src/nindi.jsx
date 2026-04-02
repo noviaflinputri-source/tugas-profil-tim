@@ -25,21 +25,21 @@ const Nindi = () => {
             <h3 className="text-xs font-bold uppercase tracking-widest text-slate-400 px-2">Hubungi Saya</h3>
             <div className="flex items-center gap-3 bg-white/5 p-3 rounded-xl hover:bg-pink-400/20 transition cursor-pointer border border-white/5">
               <span className="text-xl">📸</span>
-              <p className="text-xs font-medium">@nindiramadhani_</p>
+              <p className="text-xs font-medium">@nindrdn._</p>
             </div>
             <div className="flex items-center gap-3 bg-white/5 p-3 rounded-xl hover:bg-pink-400/20 transition cursor-pointer border border-white/5">
               <span className="text-xl">📧</span>
-              <p className="text-xs font-medium truncate">nindrdn._@gmail.com</p>
+              <p className="text-xs font-medium truncate">nindiramadhani@gmail.com</p>
             </div>
           </div>
 
           {/* SOFTWARE & TOOLS */}
           <div className="w-full mt-8 space-y-3 text-left">
             <h3 className="text-xs font-bold uppercase tracking-widest text-slate-400 px-2">Software</h3>
-            <div className="flex gap-4 p-2 bg-white/5 rounded-xl border border-white/5 justify-center">
-                <img src="https://cdn.worldvectorlogo.com/logos/figma-1.svg" className="h-6 hover:scale-110 transition" alt="Figma" title="Figma" />
-                <img src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" className="h-6 hover:scale-110 transition" alt="VSCode" title="VS Code" />
-                <img src="https://cdn.worldvectorlogo.com/logos/canva-1.svg" className="h-6 hover:scale-110 transition" alt="Canva" title="Canva" />
+            <div className="flex gap-5 p-4 bg-white/5 rounded-xl border border-white/5 justify-center items-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" className="h-6 hover:scale-125 transition duration-300" alt="Figma" title="Figma" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" className="h-6 hover:scale-125 transition duration-300" alt="VSCode" title="VS Code" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" className="h-6 hover:scale-110 transition invert" alt="GitHub" />
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@ const Nindi = () => {
             <p className="text-slate-200 leading-relaxed text-sm italic bg-white/5 p-5 rounded-2xl border-l-4 border-pink-400">
               "Halo! Saya Nindi, mahasiswi Teknologi Informasi yang memiliki ketertarikan mendalam di dunia UI/UX Design. Bagi saya, desain bukan sekadar tentang estetika visual, melainkan bagaimana menciptakan solusi digital yang intuitif dan memudahkan pengguna dalam berinteraksi. Saya sangat gemar mengeksplorasi tren desain terbaru, melakukan riset pengguna untuk memahami kebutuhan mereka, hingga menuangkan ide-ide kreatif ke dalam bentuk wireframe dan prototype high-fidelity yang interaktif menggunakan Figma. 
             
-              Selama masa perkuliahan, saya aktif mengasah kemampuan teknis saya dalam menyusun Design Systems yang konsisten dan memperhatikan aspek aksesibilitas. Saya adalah pribadi yang sangat memperhatikan detail, senang berkolaborasi dalam tim untuk memecahkan masalah kompleks, serta memiliki komitmen tinggi untuk terus belajar mengikuti perkembangan teknologi industri kreatif. Fokus utama saya adalah memberikan pengalaman pengguna yang berkesan dan bermakna melalui produk digital yang user-friendly dan fungsional."
+              Saat ini, saya berusaha mengasah kemampuan teknis saya dalam menyusun Design Systems yang konsisten dan memperhatikan aspek aksesibilitas. Saya adalah pribadi yang sangat memperhatikan detail, senang berkolaborasi dalam tim untuk memecahkan masalah kompleks, serta memiliki komitmen tinggi untuk terus belajar mengikuti perkembangan teknologi industri kreatif. Fokus utama saya adalah memberikan pengalaman pengguna yang berkesan dan bermakna melalui produk digital yang user-friendly dan fungsional."
             </p>
           </section>
 
@@ -82,7 +82,7 @@ const Nindi = () => {
              <div className="bg-pink-400/10 p-5 rounded-2xl border border-pink-400/20">
                 <h4 className="text-xs font-bold text-pink-300 uppercase mb-3 tracking-widest">Fokus Belajar</h4>
                 <p className="text-sm text-slate-200 leading-relaxed">
-                  Saat ini sedang mendalami <strong>Human-Computer Interaction (HCI)</strong> untuk memperkuat dasar riset dalam pembuatan aplikasi yang inklusif.
+                  Saat ini sedang mendalami <strong>Micro-interactions</strong> dan <strong>Design Systems</strong> untuk meningkatkan kualitas visual produk digital.
                 </p>
              </div>
           </section>
