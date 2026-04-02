@@ -8,7 +8,7 @@ function App() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed scale-105"
         style={{ 
-          backgroundImage: "url('/bg-kelompok.jpg')",
+          backgroundImage: "url('/bg-kelompok.jpeg')",
           backgroundColor: "#0f172a" 
         }}
       ></div>
@@ -25,7 +25,7 @@ function App() {
           </span>
 
           <h1 className="text-5xl font-black text-white mt-6 mb-6">
-            PROFILE KELOMPOK <span className="text-indigo-400 text-6xl block mt-2">TERSERAH</span>
+            PROFILE KELOMPOK <span className="text-pink-300 text-6xl block mt-2">TERSERAH</span>
           </h1>
 
           <div className="space-y-4">
