@@ -1,11 +1,7 @@
 import React from 'react';
-
 import Yohana from './yohana';
 import Nindi from './nindi'; 
 import Novi from './novi';
-
-import Yohana from './yohana'; 
-import Nindi from './nindi';
 
 function App() {
   return (
