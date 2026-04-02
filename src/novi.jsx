@@ -17,7 +17,7 @@ const Novi = () => {
           </div>
           
           <h2 className="text-2xl font-bold italic text-center">Novi Aflin Putri</h2>
-          <p className="text-pink-400 font-medium mb-4 uppercase tracking-widest text-sm">Project Leader</p>
+          <p className="text-pink-400 font-medium mb-4 uppercase tracking-widest text-sm">Teknologi Informasi</p>
 
           {/* DETAIL: DOMISILI & KELAS */}
           <div className="w-full space-y-2 mb-6">
