@@ -1,6 +1,7 @@
 import React from 'react';
 import Yohana from './yohana';
 import Nindi from './nindi'; 
+import Novi from './novi';
 
 function App() {
   return (
@@ -55,6 +56,11 @@ function App() {
         {/* SECTION PROFIL ANGGOTA 2 (NINDI) */}
         <div className="w-full flex justify-center pb-20">
           <Nindi />
+        </div>
+
+        {/* SECTION PROFIL ANGGOTA 3 (NOVI) */}
+        <div className="w-full flex justify-center pb-20">
+          <Novi />
         </div>
 
       </div>
