@@ -21,7 +21,7 @@ function App() {
         
         <div className="max-w-4xl w-full bg-white/10 backdrop-blur-md rounded-3xl p-10 border border-white/20 shadow-2xl">
           <span className="bg-indigo-500 text-white px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest">
-            Project Kelompok AJR
+            Project Kelompok TERSERAH
           </span>
 
           <h1 className="text-5xl font-black text-white mt-6 mb-6">
