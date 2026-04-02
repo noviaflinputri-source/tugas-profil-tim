@@ -1,4 +1,4 @@
-import React from 'yohana';
+import React from 'react';
 
 const Yohana = () => {
   return (

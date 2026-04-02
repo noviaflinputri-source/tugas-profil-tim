@@ -1,6 +1,6 @@
 import React from 'react';
-import Yohana from './yohana';
-import Nindi from './nindi'; 
+import Yohana from './yohana'; 
+import Nindi from './nindi';
 
 function App() {
   return (
