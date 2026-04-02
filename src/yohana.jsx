@@ -24,11 +24,11 @@ const Yohana = () => {
             <h3 className="text-xs font-bold uppercase tracking-widest text-slate-400 px-2">Hubungi Saya</h3>
             <div className="flex items-center gap-3 bg-white/5 p-3 rounded-xl hover:bg-blue-400/20 transition cursor-pointer border border-white/5">
               <span className="text-xl">📸</span>
-              <p className="text-xs font-medium">@yohana_</p>
+              <p className="text-xs font-medium">@yohanasitorusss</p>
             </div>
             <div className="flex items-center gap-3 bg-white/5 p-3 rounded-xl hover:bg-blue-400/20 transition cursor-pointer border border-white/5">
               <span className="text-xl">📧</span>
-              <p className="text-xs font-medium truncate">yohana@gmail.com</p>
+              <p className="text-xs font-medium truncate">sitorusyohana1@gmail.com</p>
             </div>
           </div>
 
