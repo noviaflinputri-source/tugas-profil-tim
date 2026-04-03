@@ -1,5 +1,6 @@
 import React from 'react';
-import Yohana from './Yohana'; 
+import Yohana from './yohana'; 
+import Nindi from './nindi'; // <-- 1. TAMBAHKAN BARIS INI
 
 function App() {
   return (
@@ -44,8 +45,11 @@ function App() {
             Scroll ke bawah untuk melihat profil anggota
           </p>
         </div>
-        <div className="mt-10 flex justify-center pb-20">
+        
+        {/* TEMPAT PROFIL ANGGOTA */}
+        <div className="mt-10 flex flex-col gap-6 justify-center pb-20">
           <Yohana />
+          <Nindi /> {/* <-- 2. TAMBAHKAN BARIS INI */}
         </div>
         {/* ------------------------- */}
 
