@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Yohana = () => {
+const Novi = () => {
   return (
-     <div id="profil-yohana" className="max-w-4xl w-full bg-white/10 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden border border-white/20 transition-all duration-500 hover:shadow-pink-500/20">
-    {/* Isi profil lainnya */}
+     <div id="profil-novi" className="max-w-4xl w-full bg-white/10 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden border border-white/20 transition-all duration-500 hover:shadow-pink-500/20">
+     {/* Isi profil lainnya */}
     <div className="max-w-4xl w-full bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20 text-white shadow-2xl transition-all hover:border-pink-400/50 my-10">
       <div className="flex flex-col md:flex-row gap-8">
         
@@ -11,17 +11,17 @@ const Yohana = () => {
         <div className="md:w-1/3 flex flex-col items-center border-b md:border-b-0 md:border-r border-white/10 pb-6 md:pb-0 md:pr-8">
           <div className="relative inline-block mb-4 group">
             <img 
-              src="/yohana.jpg" 
-              alt="Yohana" 
+              src="/novi.jpeg" 
+              alt="Novi Aflin Putri" 
               className="w-40 h-40 rounded-2xl border-4 border-pink-400 object-cover shadow-lg transition-transform group-hover:scale-105"
             />
             <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-green-500 border-4 border-slate-900 rounded-full shadow-md animate-pulse"></div>
           </div>
           
-          <h2 className="text-2xl font-bold italic text-center">Yohana July Serafim Sitorus</h2>
-          <p className="text-pink-400 font-medium mb-4 text-center text-sm">Teknologi Informasi</p>
+          <h2 className="text-2xl font-bold italic text-center">Novi Aflin Putri</h2>
+          <p className="text-pink-400 font-medium mb-4 uppercase tracking-widest text-sm">Teknologi Informasi</p>
 
-          {/* BAGIAN BARU: DOMISILI & KELAS */}
+          {/* DETAIL: DOMISILI & KELAS */}
           <div className="w-full space-y-2 mb-6">
             <div className="flex items-center gap-2 bg-white/5 p-2 rounded-lg border border-white/5">
               <span className="text-sm">📍</span>
@@ -29,7 +29,7 @@ const Yohana = () => {
             </div>
             <div className="flex items-center gap-2 bg-white/5 p-2 rounded-lg border border-white/5">
               <span className="text-sm">🏫</span>
-              <p className="text-xs font-semibold text-slate-300">Kelas: T2H</p>
+              <p className="text-xs font-semibold text-slate-300">Kelas: T2H - Teknologi Informasi</p>
             </div>
           </div>
 
@@ -37,11 +37,11 @@ const Yohana = () => {
             <h3 className="text-xs font-bold uppercase tracking-widest text-slate-400 px-2">Hubungi Saya</h3>
             <div className="flex items-center gap-3 bg-white/5 p-3 rounded-xl hover:bg-pink-400/20 transition cursor-pointer border border-white/5">
               <span className="text-xl">📸</span>
-              <p className="text-xs font-medium">@yohanasitorusss</p>
+              <p className="text-xs font-medium">@noviaflin.p</p>
             </div>
             <div className="flex items-center gap-3 bg-white/5 p-3 rounded-xl hover:bg-pink-400/20 transition cursor-pointer border border-white/5">
               <span className="text-xl">📧</span>
-              <p className="text-xs font-medium truncate">sitorusyohana15@gmail.com</p>
+              <p className="text-xs font-medium truncate">noviaflinputri@gmail.com</p>
             </div>
           </div>
         </div>
@@ -51,33 +51,34 @@ const Yohana = () => {
           <section>
             <h3 className="text-xl font-bold border-b-2 border-pink-400 inline-block mb-4">Tentang Diri</h3>
             <p className="text-slate-200 leading-relaxed text-sm italic bg-white/5 p-5 rounded-2xl border-l-4 border-pink-400">
-              "Saya adalah mahasiswa Teknologi Informasi yang memiliki dedikasi tinggi dalam mendalami dunia Frontend Development. Saat ini, fokus utama saya adalah membangun antarmuka web yang tidak hanya estetik secara visual melalui desain glassmorphism dan modern UI, tetapi juga memiliki performa yang responsif serta ramah pengguna. Saya sangat bersemangat dalam mempelajari logika pemrograman JavaScript dan framework React.js untuk menciptakan solusi digital yang inovatif. Selain kemampuan teknis, saya juga senang bekerja dalam tim, berbagi ide kreatif, serta terus menantang diri untuk beradaptasi dengan tren teknologi terbaru demi memberikan pengalaman pengguna yang luar biasa dan fungsional di setiap proyek yang saya kerjakan."
+              "Saya adalah seorang mahasiswi Teknologi Informasi yang memiliki antusiasme tinggi dalam dunia pengembangan perangkat lunak, khususnya pada bidang Front-End Development. Fokus utama saya adalah menciptakan antarmuka web yang tidak hanya memiliki visual menarik, tetapi juga responsif dan memberikan pengalaman pengguna yang optimal. Saya sangat gemar mengeksplorasi ekosistem JavaScript, terutama framework React.js dan utility-first CSS seperti Tailwind CSS untuk membangun proyek-proyek yang modern. Melalui berbagai tugas praktikum pemrograman web, saya telah mengasah kemampuan dalam memecahkan masalah logika secara sistematis dan mengimplementasikan desain menjadi kode yang bersih. Saya adalah pribadi yang berkomitmen untuk terus belajar mengikuti perkembangan tren teknologi terbaru, senang berkolaborasi dalam tim, serta memiliki ketelitian tinggi dalam proses debugging demi menghasilkan produk digital yang berkualitas serta user-friendly bagi masyarakat luas."
             </p>
           </section>
 
           <section>
-            <h3 className="text-xl font-bold border-b-2 border-pink-400 inline-block mb-4">Skills</h3>
+            <h3 className="text-xl font-bold border-b-2 border-pink-400 inline-block mb-4">Technical Skills</h3>
             <div className="flex flex-wrap gap-2">
               <span className="bg-pink-400/20 text-pink-300 px-4 py-1.5 rounded-full text-xs font-semibold border border-pink-400/30">React.js</span>
-              <span className="bg-pink-400/20 text-pink-300 px-4 py-1.5 rounded-full text-xs font-semibold border border-pink-400/30">Javascript</span>
+              <span className="bg-pink-400/20 text-pink-300 px-4 py-1.5 rounded-full text-xs font-semibold border border-pink-400/30">JavaScript ES6</span>
               <span className="bg-pink-400/20 text-pink-300 px-4 py-1.5 rounded-full text-xs font-semibold border border-pink-400/30">Tailwind CSS</span>
-              <span className="bg-pink-400/20 text-pink-300 px-4 py-1.5 rounded-full text-xs font-semibold border border-pink-400/30">Git & Github</span>
+              <span className="bg-pink-400/20 text-pink-300 px-4 py-1.5 rounded-full text-xs font-semibold border border-pink-400/30">Git & GitHub</span>
+              <span className="bg-pink-400/20 text-pink-300 px-4 py-1.5 rounded-full text-xs font-semibold border border-pink-400/30">HTML5 & CSS3</span>
             </div>
           </section>
 
           <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
              <div className="bg-white/5 p-5 rounded-2xl border border-white/10">
-                <h4 className="text-xs font-bold text-pink-300 uppercase mb-3 tracking-widest">Kekuatan</h4>
+                <h4 className="text-xs font-bold text-pink-300 uppercase mb-3 tracking-widest">Soft Skills</h4>
                 <ul className="text-sm space-y-2 text-slate-300">
-                  <li>🚀 Fast Learner</li>
-                  <li>🤝 Team Player</li>
-                  <li>💡 Problem Solver</li>
+                  <li>💡 Logic-Oriented</li>
+                  <li>🤝 Team Collaboration</li>
+                  <li>🎯 Project Management</li>
                 </ul>
              </div>
              <div className="bg-pink-400/10 p-5 rounded-2xl border border-pink-400/20">
-                <h4 className="text-xs font-bold text-pink-300 uppercase mb-3 tracking-widest">Target</h4>
+                <h4 className="text-xs font-bold text-pink-300 uppercase mb-3 tracking-widest">Fokus Saat Ini</h4>
                 <p className="text-sm text-slate-200 leading-relaxed">
-                  Menjadi <strong>Fullstack Developer</strong> dan menguasai berbagai framework modern.
+                  Sedang mendalami <strong>API Integration</strong> dan <strong>State Management</strong> di dalam ekosistem React.
                 </p>
              </div>
           </section>
@@ -88,4 +89,4 @@ const Yohana = () => {
   );
 };
 
-export default Yohana;
+export default Novi;
