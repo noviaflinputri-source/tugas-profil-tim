@@ -2,6 +2,7 @@ import React from 'react';
 
 const Novi = () => {
   return (
+    id="profil-novi"
     <div className="max-w-4xl w-full bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20 text-white shadow-2xl transition-all hover:border-pink-400/50 my-10">
       <div className="flex flex-col md:flex-row gap-8">
         

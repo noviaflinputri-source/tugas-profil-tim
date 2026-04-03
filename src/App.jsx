@@ -5,6 +5,12 @@ import Novi from './novi';
 
 function App() {
   return (
+    <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 bg-white/20 backdrop-blur-lg px-6 py-3 rounded-full border border-white/30 flex gap-5 shadow-2xl">
+  <button onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="text-white hover:text-pink-300 transition font-semibold">Beranda</button>
+  <a href="#profil-novi" className="text-white hover:text-pink-300 transition font-semibold">Novi</a>
+  <a href="#profil-yohana" className="text-white hover:text-pink-300 transition font-semibold">Yohana</a>
+  <a href="#profil-nindi" className="text-white hover:text-pink-300 transition font-semibold">Nindi</a>
+</nav>
     <div className="relative min-h-screen font-sans antialiased">
       
       {/* 1. BACKGROUND FOTO - Diubah ke fixed agar saat scroll background tetap diam */}
