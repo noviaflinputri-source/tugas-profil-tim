@@ -2,7 +2,8 @@ import React from 'react';
 
 const Yohana = () => {
   return (
-    id="profil-yahana"
+     <div id="profil-yohana" className="max-w-4xl w-full bg-white/10 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden border border-white/20 transition-all duration-500 hover:shadow-pink-500/20">
+    {/* Isi profil lainnya */}
     <div className="max-w-4xl w-full bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20 text-white shadow-2xl transition-all hover:border-pink-400/50 my-10">
       <div className="flex flex-col md:flex-row gap-8">
         
@@ -82,6 +83,7 @@ const Yohana = () => {
           </section>
         </div>
       </div>
+    </div>
     </div>
   );
 };
